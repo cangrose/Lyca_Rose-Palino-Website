@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(to right, rgb(255, 229, 180), #FFD1DC, #82EEFD);
+}
+
+.center {
+    width: 100%;
+}
+
+.center h1 {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 150px;
+    color: palevioletred;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+.file-directory {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.file-directory a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: center;
+    font-size: xx-large;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.file-directory a:hover {
+    background-color: darkkhaki;
+    color: greenyellow;
+}

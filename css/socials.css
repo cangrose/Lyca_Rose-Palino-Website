@@ -1,0 +1,136 @@
+body {
+  background: linear-gradient(to right, rgb(93, 156, 164), rgb(100, 133, 137), #DBA9B8, #EFA6AA, #EF4A81 );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex; 
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: darkcyan;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 30px;
+}
+
+nav ul li a.not-active {
+  pointer-events: none; 
+  color:gray;
+}
+
+nav a:hover {
+  color: pink;
+  font-size: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 60px ;
+  margin-left:350px ;
+  background-color: rgb(246, 246, 144);
+  font-size: 25px;
+
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  color: #fff;
+  background-color: rgb(247, 247, 200);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  color: black;
+}
+
+.form-container {
+  border: 3px solid #FF6EC7;
+  width:40%;
+  margin:0 auto;
+  margin-top: 60px;
+  padding:20px;
+  border-radius: 5px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 50;
+    margin: 0;
+
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    font-size: 130px;
+  }
+
+  ul.social-icons li a .fa-facebook {
+    color: #316FF6;
+  }
+
+  ul.social-icons li a .fa-twitter {
+    color: #1DA1F2;
+  }
+
+  ul.social-icons li a .fa-instagram {
+    background:rgb(225 48 108);
+    color:white;
+  }
+
+  ul.social-icons li a .fa-youtube {
+    background:#E62117;
+    color:white;
+  }
+
+
+

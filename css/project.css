@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(to right, rgb(93, 156, 164), rgb(100, 133, 137), #DBA9B8, #EFA6AA, #EF4A81 );
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 10px;
+}
+  
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    padding: 0;
+}
+  
+nav ul li {
+    margin: 0 10px;
+}
+  
+nav ul li a {
+    color: darkcyan;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+
+nav ul li a.not-active {
+    pointer-events: none; 
+    color:gray;
+}
+  
+nav a:hover {
+    color: pink;
+    font-size: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-container {
+    border: 3px solid red;
+    width:19%;
+    margin:0 auto;
+    margin-top: 50px;
+    padding:20px;
+    border-radius: 5px;
+}
+.file-directory {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.file-directory ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.file-directory li {
+    padding: 20px 0;
+}
+
+.file-directory a {
+    color: rgb(234, 0, 255);
+    text-decoration: none;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.file-directory a:hover {
+    color: rgb(249, 0, 0);
+}
